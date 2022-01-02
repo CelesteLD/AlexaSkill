@@ -1,0 +1,97 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "que animal es",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "animal",
+              "type": "AMAZON.Animal"
+            }
+          ],
+          "samples": [
+            "una {animal}",
+            "un {animal}",
+            "es {animal}",
+            "creo que es {animal}",
+            "la respuesta es {animal}",
+            "la respuesta correcta es {animal}",
+            "{animal}",
+            "es un {animal}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": [
+            "repite",
+            "repite de nuevo",
+            "repitemelo",
+            "dimelo otra vez",
+            "dime otra vez",
+            "vuelve a decirlo",
+            "repite la pregunta"
+          ]
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": [
+            "paso palabra",
+            "pasa palabra",
+            "pasa a la siguiente",
+            "dime la siguiente",
+            "siguiente"
+          ]
+        },
+        {
+          "name": "ClueIntent",
+          "slots": [],
+          "samples": [
+            "quiero una pista",
+            "di una pista",
+            "dime una pista",
+            "pista",
+            "pistas"
+          ]
+        },
+        {
+          "name": "PendingIntent",
+          "slots": [],
+          "samples": [
+            "dejala pendiente",
+            "no se",
+            "no se la respuesta",
+            "pendiente"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "5"
+}
